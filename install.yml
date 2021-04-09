@@ -2,9 +2,9 @@
 - hosts: all
   vars:
     pulp_settings:
-      secret_key: << YOUR SECRET HERE >>
+      secret_key: test
       content_origin: "https://{{ ansible_fqdn }}"
-    pulp_default_admin_password: << YOUR PASSWORD HERE >>
+    pulp_default_admin_password: test
     pulp_install_plugins:
       # galaxy-ng: {}
       # pulp-2to3-migration: {}
